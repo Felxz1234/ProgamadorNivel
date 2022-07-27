@@ -21,7 +21,7 @@ export const FormStep1 = ()=>{
         if(state.name !==''){
             history('/step2')
         }else{
-            alert('Digite seu nome.')
+            alert('Escreva seu nome.')
         }
     }
 
